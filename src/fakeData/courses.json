@@ -1,0 +1,93 @@
+[
+    {
+        "id" : "105017",
+        "name" : "JavaScript for beginners",
+        "category" : "web development",
+        "price" : 34.68,
+        "duration" : "2h 36 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "106015",
+        "name" : "Learn My Sql",
+        "category" : "web development",
+        "price" : 24.32,
+        "duration" : "1h 45 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "107012",
+        "name" : "PHP OOP for absolute beginners",
+        "category" : "web development",
+        "price" : 46.17,
+        "duration" : "8h 58 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "100017",
+        "name" : "Bootstrap 4 best CSS framework",
+        "category" : "web development",
+        "price" : 10.76,
+        "duration" : "3h 27 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "101023",
+        "name" : "Learn JSON in best way",
+        "category" : "web development",
+        "price" : 14.17,
+        "duration" : "1h 6 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "102030",
+        "name" : "Adobe photoshop in 2022",
+        "category" : "graphics and motions",
+        "price" : 42.56,
+        "duration" : "6h 23 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "103056",
+        "name" : "React JS front-end web-development",
+        "category" : "web development",
+        "price" : 49.99,
+        "duration" : "6h 12 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "104067",
+        "name" : "HTML 5 for web design",
+        "category" : "web development",
+        "price" : 12.45,
+        "duration" : "3h 21 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "107045",
+        "name" : "Learn CSS for web-design",
+        "category" : "web development",
+        "price" : 15.67,
+        "duration" : "2h 43 minutes",
+        "img" : "",
+        "url" : ""
+    },
+    {
+        "id" : "100096",
+        "name" : "Node JS for backend applications",
+        "category" : "web development",
+        "price" : 55.99,
+        "duration" : "5h 55 minutes",
+        "img" : "",
+        "url" : ""
+    }
+
+]

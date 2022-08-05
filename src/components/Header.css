@@ -1,0 +1,79 @@
+.header{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    position: relative;
+    background-color: #6ac5cc;
+}
+.search-course{
+    width: 45%;
+    border: 1px solid #000;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 8px 0px;
+}
+.search-course i{
+    color: #8f8a8a;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.search-course input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+nav{
+    padding: 10px 0px;
+}
+.navlist{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+}
+.navlist .nav-link{
+    padding: 0px 15px;
+    font-size: 18px;
+}
+.navlist .icon{
+    font-size: 22px;
+    padding-right: 20px;
+    position: relative;
+}
+.navlist .icon sup{
+    font-size: 14px;
+    position: absolute;
+    top: 3px;
+}
+.navlist ul{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    display: none;
+    padding-top: 20px;
+}
+.navlist .nav-link:hover{
+    color: #fff;
+} 
+.navlist li:hover ul{
+    display: flex;
+    flex-direction: column;
+}
+.navlist ul li{
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+}
+.navlist ul li{
+    color: #000;
+    font-size: 18px;
+    background-color: #6ac5cc;
+    padding: 2px 10px;
+}
+.navlist ul li:hover{
+    color: #fff;
+}
