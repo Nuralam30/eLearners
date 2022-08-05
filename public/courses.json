@@ -5,16 +5,16 @@
         "category" : "web development",
         "price" : 34.68,
         "duration" : "2h 36 minutes",
-        "img" : "https://i.postimg.cc/hhnFFV6V/js.png",
+        "img" : "https://i.postimg.cc/WbNGP1vP/js.png",
         "url" : "https://postimg.cc/hhnFFV6V"
     },
     {
         "id" : "106015",
-        "name" : "Learn My Sql",
+        "name" : "Learn MySql",
         "category" : "web development",
         "price" : 24.32,
         "duration" : "1h 45 minutes",
-        "img" : "https://i.postimg.cc/t4ncrZ8k/mySql.jpg",
+        "img" : "https://i.postimg.cc/4x4hjLp4/mySql.jpg",
         "url" : "https://postimg.cc/4YZwydfH"
     },
     {
@@ -23,7 +23,7 @@
         "category" : "web development",
         "price" : 46.17,
         "duration" : "8h 58 minutes",
-        "img" : "https://i.postimg.cc/g2LqZ1Tt/php.png",
+        "img" : "https://i.postimg.cc/rszPhCgf/php.png",
         "url" : "https://postimg.cc/v4MVR2M5"
     },
     {
