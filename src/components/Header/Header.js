@@ -1,18 +1,18 @@
 import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import {  faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
         <div className="header">
             <h2 className='logo'>eLearners</h2>
-            <div className="search-course">
+            {/* <div className="search-course">
                 <i>
                     <FontAwesomeIcon icon={faSearch} />
                 </i>
                 <input type="text" placeholder='Search for anything' />
-            </div>
+            </div> */}
             
             <nav>
                 <ul className='navlist'>
