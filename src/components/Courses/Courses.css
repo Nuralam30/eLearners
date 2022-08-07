@@ -2,14 +2,4 @@
 .courses{
     padding: 30px 100px;
 }
-.single-course{
-    max-width: 250px;
-    margin-bottom: 10px;
-}
-.single-course img{
-    width: 250px;
-    height: 180px;
-}
-.single-course h5{
-    margin-top: 10px;
-}
+

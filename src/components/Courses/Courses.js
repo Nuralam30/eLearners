@@ -1,30 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import './Courses.css';
+import Course from '../Course/Course';
 
 
-const Courses = () =>{
+const Courses = () => {
     const [courses, setCourses] = useState([]);
 
-    useEffect( () =>{
+    useEffect(() => {
         fetch("./courses.json")
-        .then(res => res.json())
-        .then(data => setCourses(data))
+            .then(res => res.json())
+            .then(data => setCourses(data))
     })
-    
+
+    // const [cart, setCart] = useState([]);
+    const handleAddCourse = (course) =>{
+        console.log(course)
+    }
+
     return (
         <div className='courses'>
             <div className='row'>
-            {
-                courses.map(course => 
-                    <div className='col-md-3'>
-                        <div className="single-course">
-                            <img src={course.img} alt="" />
-                            <h5>{course.name}</h5>
-                            <button className='btn btn-sm btn-secondary'>enroll now</button>
+                {
+                    courses.map(co =>
+                        <div className="col-lg-3 col-md-6">
+                            <Course handleAddCourse={handleAddCourse} course={co}></Course>
                         </div>
-                    </div>
-                )
-            }
+                    )
+                }
             </div>
         </div>
     );

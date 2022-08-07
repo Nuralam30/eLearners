@@ -1,0 +1,12 @@
+.single-course{
+    max-width: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.single-course img{
+    width: 250px;
+    height: 180px;
+}
+.single-course h5{
+    margin: 8px 0px;
+}

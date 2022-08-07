@@ -16,7 +16,7 @@ const Header = () => {
             
             <nav>
                 <ul className='navlist'>
-                    <li className='icon'>
+                    <li className='cart-icon'>
                         <FontAwesomeIcon icon={faShoppingCart} />
                         <sup>2</sup>
                     </li>
