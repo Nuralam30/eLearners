@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import Cart from '../Cart/Cart';
 
 const Header = () => {
     return (
@@ -14,9 +15,21 @@ const Header = () => {
                 <input type="text" placeholder='Search for anything' />
             </div> */}
             
+            <div className="cart">
+                {
+                    <Cart></Cart>
+                }
+            </div>
+            
             <nav>
                 <ul className='navlist'>
-                    <li className='cart-icon'>
+                    <li className='cart-icon' onClick={ () =>{
+                        
+                        const item = document.querySelector('.cart').children;
+                        console.log(item)
+                        item.style.display = 'block';
+                        // item.classList.toggle('show');
+                    }}>
                         <FontAwesomeIcon icon={faShoppingCart} />
                         <sup>2</sup>
                     </li>

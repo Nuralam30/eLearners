@@ -78,3 +78,7 @@ nav{
 .navlist ul li:hover{
     color: #fff;
 }
+
+.show{
+    display: block;
+}
