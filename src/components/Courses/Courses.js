@@ -18,7 +18,7 @@ const Courses = () => {
     const [cart, setCart] = useState([]);
 
     const handleAddCourse = (course) => {
-        console.log(course)
+        // console.log(course)
         const newCart = [...cart, course];
         setCart(newCart)
     }
