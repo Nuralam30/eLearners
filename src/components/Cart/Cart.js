@@ -1,10 +1,17 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = () => {
+const Cart = (props) => {
+
+    const cart = props.cart;
+
     return (
-        <div className='cart-items'>
-            <h1>this is cart page and it </h1>
+        <div className='cart-info'>
+            <h3>Order Summary</h3>
+            <br />
+            <h5>Items ordered : {cart.length}</h5>
+            <br />
+             
         </div>
     );
 };

@@ -4,26 +4,9 @@
     justify-content: space-around;
     align-items: center;
     padding: 0px 30px;
-    position: relative;
     background-color: #6ac5cc;
 }
-.search-course{
-    width: 45%;
-    border: 1px solid #000;
-    border-radius: 25px;
-    background-color: #fff;
-    padding: 8px 0px;
-}
-.search-course i{
-    color: #8f8a8a;
-    font-size: 20px;
-    padding: 0px 10px;
-}
-.search-course input{
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
+
 nav{
     padding: 10px 0px;
 }
@@ -34,22 +17,13 @@ nav{
     flex-direction: row;
     list-style: none;
     position: relative;
+    z-index: 100;
 }
 .navlist .nav-link{
     padding: 0px 15px;
     font-size: 18px;
 }
-.navlist .cart-icon{
-    font-size: 22px;
-    padding-right: 20px;
-    position: relative;
-    cursor: pointer;
-}
-.navlist .cart-icon sup{
-    font-size: 14px;
-    position: absolute;
-    top: 3px;
-}
+
 .navlist ul{
     position: absolute;
     list-style: none;
@@ -67,7 +41,7 @@ nav{
 .navlist ul li{
     color: #000;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 30px;
 }
 .navlist ul li{
     color: #000;
@@ -77,8 +51,4 @@ nav{
 }
 .navlist ul li:hover{
     color: #fff;
-}
-
-.show{
-    display: block;
 }
